@@ -126,7 +126,7 @@ export default class Client {
     let peek: Buffer | null = Buffer.alloc(0);
 
     return new Transform({
-      transform(chunk, encoding, callback) {
+      transform(chunk, _encoding, callback) {
         if (headerParsed) {
           this.push(chunk);
           callback();
