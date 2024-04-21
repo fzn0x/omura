@@ -25,6 +25,9 @@ bunx omura
 
 # Fix `UNABLE_TO_VERIFY_LEAF_SIGNATURE: unable to verify the first certificate`
 NODE_TLS_REJECT_UNAUTHORIZED=0 bunx omura
+
+# Local development (Same directory)
+NODE_TLS_REJECT_UNAUTHORIZED=0 bunx .
 ```
 
 ### [npx](https://nodejs.org/en/download) `recommended: v10.5.0`
