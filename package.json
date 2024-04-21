@@ -1,0 +1,34 @@
+{
+  "name": "omura",
+  "description": "Pushing lightweight gemtext-based internet through gemini:// protocol client. Made by https://github.com/fzn0x.",
+  "version": "0.0.1",
+  "module": "src/index.ts",
+  "type": "module",
+  "main": "./dist/index.js",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "bin": {
+    "omura": "./dist/index.js"
+  },
+  "scripts": {
+    "dev": "NODE_TLS_REJECT_UNAUTHORIZED=0 bun --watch run src/index.ts",
+    "package": "tsup --config ./tsup.config.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "tsup": "^8.0.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@derhuerst/gemini": "^2.0.0",
+    "@types/readline-sync": "^1.4.8",
+    "@types/unist": "^3.0.2",
+    "readline-sync": "^1.4.10"
+  },
+  "engines": {
+    "node": ">=21.7.3"
+  }
+}

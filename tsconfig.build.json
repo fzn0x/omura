@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Omura Types",
+  "compilerOptions": {
+    "declaration": true,
+    "baseUrl": "./src",
+    "paths": {
+      ".": ["."]
+    },
+    "declarationDir": "./dist",
+    "allowJs": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "pretty": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "target": "ES2022",
+    "moduleDetection": "force"
+  },
+  "exclude": ["./dist", "./node_modules"]
+}
