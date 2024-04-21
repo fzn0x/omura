@@ -1,7 +1,7 @@
 {
   "name": "omura",
   "description": "Pushing lightweight gemtext-based internet through gemini:// protocol client. Made by https://github.com/fzn0x.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "module": "src/index.ts",
   "type": "module",
   "main": "./dist/index.js",

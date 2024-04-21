@@ -3,7 +3,6 @@
 import { RootContent, ListItem } from "universal-ast";
 
 export function transform(childrens: RootContent[]) {
-  console.dir(childrens, { depth: null });
   const links = childrens
     .filter((children) => children.type === "link")
     .map((children) => children.url);
