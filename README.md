@@ -21,6 +21,9 @@ Omura is simple (Only commands, yes, commands.) and extensible (powered by UNIST
 ### [Bunx](https://bun.sh/docs/cli/bunx) `recommended: v1.1.3`
 
 ```bash
+# Install omura with bunx
+bunx add omura
+# then run
 bunx omura
 
 # Fix `UNABLE_TO_VERIFY_LEAF_SIGNATURE: unable to verify the first certificate`
