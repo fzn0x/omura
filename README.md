@@ -2,6 +2,9 @@
     <img src="./assets/omura.png" alt="Omura is CLI client to access the Gemini Protocol sites. A Gemtext-based Web Alternatives Protocol.">
 </div>
 
+> [!WARNING]
+> This package is still a work in progress.
+
 ## What is Omura?
 
 Omura is a small-CLI small-client to access the [_Gemini Protocol_](https://geminiprotocol.net/) sites. A Gemtext-based Web Alternatives Protocol.
